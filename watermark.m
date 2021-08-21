@@ -12,7 +12,6 @@ NSString *WMText = @"github.com/spoowy63";
 UILabel *watermark;
 
 watermark = [[UILabel alloc] initWithFrame: CGRectMake(0, 0, window.frame.size.width / 4, 20)];
-watermark.backgroundColor = WMBGColor;
 watermark.text = WMText;
 watermark.adjustsFontSizeToFitWidth = YES;
 watermark.center = CGPointMake(CGRectGetMinX(window.frame) + watermark.frame.size.width / 2 + 10, CGRectGetMaxY(window.frame) - watermark.frame.size.height - 5);
